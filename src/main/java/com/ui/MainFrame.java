@@ -45,7 +45,7 @@ public class MainFrame extends JFrame implements Runnable {
 	}
 
 	private void makeGUI() {
-		this.setTitle("Linear Discriminant Analysis");
+		this.setTitle("Class Prediction with Linear Discriminant Analysis");
 		this.setLayout(new MigLayout("fillx, insets 5, top, left"));
 		setPreferredSize(new Dimension(800, 600));
 
