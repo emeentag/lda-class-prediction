@@ -90,7 +90,7 @@ public class GUI extends JPanel {
 
 		// Class must be.
 		name = new JLabel();
-		name.setText("Class must be: ");
+		name.setText("Class should be: ");
 		coordinateContainer.add(name, "cell 0 4");
 
 		labelClass = new JLabel();

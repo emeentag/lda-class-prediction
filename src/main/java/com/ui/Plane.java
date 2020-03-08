@@ -32,7 +32,7 @@ public class Plane extends JPanel {
 	public void addPoint(int xPos, int yPos, int pointClass) {
 		setAddedPoint(new CirclePoint(xPos, yPos, pointClass, true));
 		this.add(addedPoint);
-		parent.getGui().getOutputTextArea().append("* Test Point: " + xPos + ":" + yPos + ":" + pointClass + "\n");
+		parent.getGui().getOutputTextArea().append("* Test Point: " + xPos + ":" + yPos + ":" + pointClass + " add.\n");
 		parent.revalidate();
 		parent.repaint();
 	}
