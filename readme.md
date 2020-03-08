@@ -1,6 +1,7 @@
 # Class Prediction with Linear Discriminant Analysis(LDA)
 In this project we tried to **predict** the class of a given point in a plane where we randomly add points in two different colors.
-
+## Video
+![](assets/lda.gif)
 ## How it works?
 ### Creating visualizing the training set:
 * After you provide limit points by given X and Y position of it, app will randomly distribute the points in two different colors on plane. You can use `Limit X` and `Limit Y` inputs.
@@ -25,5 +26,3 @@ You can use `Test X` and `Test Y` inputs.
 | 300     | 300     | 1000       | 250    | 250    | 1            | 2(False)          | 1(True)          |
 | 300     | 300     | 1000       | 280    | 250    | 1            | 2(False)          | 2(False)         |
 | 300     | 300     | 1000       | 400    | 250    | 2            | 2(True)           | 2(True)          |
-## Video
-![](assets/lda.gif)
